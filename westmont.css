@@ -16,13 +16,22 @@ h1 { position: relative; font-family: 'Zen Loop'; font-style: cursive; font-size
   justify-content: center;
   border-radius: 1rem; gap: 1rem; }
 
-.progress {  background: #415057; }
-
-
 h1::before { content: " ⚔️ " }
 
 .card-body { 
 font-size: 12px; letter-spacing: 1px; font-family: Work Sans;}
+
+table th {
+font-size: 10px;
+background-color: #415057;
+color: #fff;
+font-family: Work Sans; }
+
+table i {
+color: #415057;
+font-family: Work Sans; }
+
+.progress {  background: #415057; }
 
 .writeup {
   font-size: 13px;
