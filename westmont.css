@@ -41,7 +41,7 @@ font-family: Work Sans; }
 }
 
 .nameplate1 {
-  background: url('https://i.imgur.com/LrWLfUK.png');
+  background: url('https://i.imgur.com/ipnbuIK.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -58,9 +58,9 @@ font-family: Work Sans; }
   align-items: center;
   font-family: 'Noto Serif Old Uyghur', serif;
   color: #000;
-    background-color: #4c2c60;
+    background-color: #666666;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-shadow: rgba(83,47,110,26) 1px 1px 1px;}
+    text-shadow: rgba(5,208,235,0.5) 1px 1px 1px;
