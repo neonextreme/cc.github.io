@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+h1 { position: relative; font-family: 'Zen Loop'; font-style: cursive; font-size: 3.2rem; font-weight: bold;  
+
+  padding: 0;
+  text-align: center;
+  background: transparent;
+  background: linear-gradient(90deg, #05d0eb 0%, transparent 33%, transparent 66%, #05d0eb 100%);
+  height: 6px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin: 3rem 0 1.5rem;
+  justify-content: center;
+  border-radius: 1rem; gap: 1rem; }
+
+.progress {  background: #415057; }
+
+
+h1::before { content: " ⚔️ " }
+
+.card-body { 
+font-size: 12px; letter-spacing: 1px; font-family: Work Sans;}
+
+.writeup {
+  font-size: 13px;
+  font-family: Work Sans;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.nameplate1 {
+  background: url('https://i.imgur.com/LrWLfUK.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.nameplate2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 29px;
+  min-height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Serif Old Uyghur', serif;
+  color: #000;
+    background-color: #4c2c60;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(83,47,110,26) 1px 1px 1px;}
