@@ -18,7 +18,8 @@ h1 { position: relative; font-family: 'Zen Loop'; font-style: cursive; font-size
 
 h1::before { content: " 👑 " }
 
-h2 { color: #6283a8; }
+h2 { color: #6283a8; 
+   font-weight: none;}
 
 .card-body { 
 font-size: 12px; letter-spacing: 1px; font-family: Work Sans;}
