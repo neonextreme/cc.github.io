@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 
-h1 { position: relative; font-family: 'Zen Loop'; font-style: cursive; font-size: 3.2rem; font-weight: bold;  
+h1 { position: relative; font-family: 'Zen Loop'; font-style: cursive; font-size: 3.2rem; font-weight: bold; font-style: normal;
 
   padding: 0;
   text-align: center;
