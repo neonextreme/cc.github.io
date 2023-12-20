@@ -40,6 +40,17 @@ nav a:hover {
 }
 
 
+table a { 
+  transition: .3s; 
+  text-decoration: none; 
+  color: #355863!important; 
+}
+
+table a:hover { 
+  color: #657D7E!important;
+}
+
+
 .card-header { 
   font-family: 'Miniver';
   color: #fff;
@@ -47,11 +58,6 @@ nav a:hover {
   font-weight: normal;
   background: #355863;
     }
-
-table th {
-   background: #355863;
-   color: #fff;
-}
 
 table th {
 font-size: 10px;
