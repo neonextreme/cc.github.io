@@ -32,11 +32,11 @@ h2 {
 a { 
   transition: .3s; 
   text-decoration: none; 
-  color: #355863; 
+  color: #355863!important; 
 }
 
 a:hover { 
-  color: #657D7E;
+  color: #657D7E!important;
 }
 
 
