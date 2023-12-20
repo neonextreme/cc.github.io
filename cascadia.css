@@ -1,38 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
 
-h1 { position: relative; font-family: 'Zen Loop'; font-style: cursive; font-size: 3.2rem; font-weight: bold; font-style: normal;
-
+h1 {
+  font-family: 'Milonga';
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #355863; 
   padding: 0;
   text-align: center;
   background: transparent;
-  background: linear-gradient(90deg, #6283a8 0%, transparent 33%, transparent 66%, #6283a8 100%);
+  background: linear-gradient(90deg, #355863 0%, transparent 33%, transparent 66%, #355863 100%);
   height: 6px;
   font-weight: 400;
   display: flex;
   align-items: center;
   margin: 3rem 0 1.5rem;
   justify-content: center;
-  border-radius: 1rem; gap: 1rem; }
+  border-radius: 1rem; gap: 1rem; 
+}
 
-h1::before { content: " 👑 " }
 
-h2 { color: #6283a8; 
-   font-weight: 300;}
+h2 {  
+    font-family: 'Milonga';
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300; 
+    text-transform: none;
+}
 
-.card-body { 
-font-size: 12px; letter-spacing: 1px; font-family: Work Sans;}
+.card-header { 
+  font-family: 'Miniver';
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: normal;
+  background: #355863;
+    }
+
+table th {
+   background: #355863;
+   color: #fff;
+}
 
 table th {
 font-size: 10px;
-background-color: #6283a8;
+background-color: #355863;
 color: #fff;
-font-family: Work Sans; }
+ }
 
 table i {
-color: #6283a8;
-font-family: Work Sans; }
+color: #355863;
+ }
 
 .writeup {
   font-size: 13px;
