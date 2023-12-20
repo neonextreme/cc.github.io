@@ -28,6 +28,18 @@ h2 {
     text-transform: none;
 }
 
+
+a { 
+  transition: .3s; 
+  text-decoration: none; 
+  color: #355863; 
+}
+
+a:hover { 
+  color: #657D7E;
+}
+
+
 .card-header { 
   font-family: 'Miniver';
   color: #fff;
