@@ -39,6 +39,10 @@ nav a:hover {
   color: #657D7E!important;
 }
 
+sidebar a, .lightswitch {
+  color: #fff!important;
+}
+
 
 table a { 
   transition: .3s; 
