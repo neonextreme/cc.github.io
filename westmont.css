@@ -83,7 +83,10 @@ table i {
 color: #6283a8;
  }
 
+table { border: 0px; }
+       
 tbody tr:nth-child(odd) { background: none; }
+
 
 .pic {
 margin: 1.5rem 0;
