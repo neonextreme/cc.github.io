@@ -83,6 +83,8 @@ table i {
 color: #6283a8;
  }
 
+.tabwrap { margin: 1.5rem 0; }
+
 .tabcontent {
   font-size: 13px;
   text-transform: lowercase;
