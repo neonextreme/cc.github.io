@@ -86,7 +86,8 @@ color: #6283a8;
  }
 
 table { border: 0px; 
-      min-width: inherit;}
+      min-width: inherit;
+      max-width: 600px;}
        
 tbody tr:nth-child(odd) { background: none; }
 
