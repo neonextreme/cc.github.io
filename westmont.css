@@ -83,6 +83,10 @@ table i {
 color: #6283a8;
  }
 
+table {
+	background-color: none;
+}
+
 .pic {
 margin: 1.5rem 0;
 }
