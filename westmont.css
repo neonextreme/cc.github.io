@@ -85,14 +85,6 @@ table i {
 color: #6283a8;
  }
 
-table { border: none; 
-      min-width: inherit;
-      max-width: 600px;}
-       
-tbody tr:nth-child(odd) { background: none; border: none; }
-
-.stats tr td:nth-child(odd) ( backgorund: none; border: none; }
-
 .pic {
 margin: 1.5rem 0;
 }
