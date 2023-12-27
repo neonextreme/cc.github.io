@@ -69,6 +69,8 @@ fieldset {
    border: 1px solid #7a909f;
 }
 
+.stats { max-width: 400px; }
+
 table th {
 font-size: 10px;
 background-color: #3f505e;
