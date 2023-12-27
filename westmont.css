@@ -85,7 +85,8 @@ table i {
 color: #6283a8;
  }
 
-table { border: 0px; }
+table { border: 0px; 
+      min-width: inherit;}
        
 tbody tr:nth-child(odd) { background: none; }
 
