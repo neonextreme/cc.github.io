@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+[data-theme="dark"] fieldset {
+  **border: 1px solid #aaa;
+}
+[data-theme="dark"] h3 {
+	color: #aaa !important ;
+}
+[data-theme="dark"] {
+	--background: #161616;
+	--text: #aaa;
+  --alt: #1f1f1f;
+  --border: #222; 
+}
+[data-theme="dark"]
+.stats tbody tr:nth-child(odd) { background: var(--alt);}
+
+[data-theme="dark"]
+.history tbody tr:nth-child(odd) { background: var(--alt) }
+
+[data-theme="dark"]
+ td a { transition: .3s; text-decoration: none; color: #72A0C1; }
+
+[data-theme="dark"]
+ td a:hover { transition: .3s; text-decoration: none; color: #ccc; }
+
+[data-theme="dark"]
+th {background: background: var(--alt)!important; font-weight: bold;}
+
+[data-theme="dark"]
+fieldset {
+background: var(--alt);}
+
+[data-theme="dark"]
+.tablinks {color: #aaa;}
+
+[data-theme="dark"]
+.tablinks:hover { transition: .3s; text-decoration: none; color: #72A0C1!important; }
+
+[data-theme="dark"]
+    .tablinks.active {
+background-color: var(--alt); }
+
+[data-theme="dark"]
+.tabcontent  {
+background-color: var(--alt); }
+
+[data-theme="dark"]
+select, input, textarea, button, .button {
+  background: var(--border);
+  color: inherit;
+}
+
+[data-theme="dark"]
+input {
+  background: var(--border);
+  color: inherit;
+}
+
+[data-theme="dark"]
+.ribbons {background: transparent !important;}
+
+[data-theme="dark"]
+.ribbons table {background: var(--border); outline: 10px solid var(--border);}
+
+h1 {
+  font-family: "Lavishly Yours", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 3.5rem;
+background: transparent;
+  background: linear-gradient(90deg, #72A0C1 0%, transparent 33%, transparent 66%, #72A0C1 100%);
+}
+
+h1::before { content: " ⚔️ " ; font-size: 50%; opacity: 0.7;}
+
+small { font-size: 50%;}
+
+legend {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 2rem;
+  line-height: 0;
+}
+nav {
+	background: url(https://i.vgy.me/HZXznC.jpg) #3f505e;
+	background-size: cover;
+	background-position: 50% 51.3%;
+	background-repeat: no-repeat;
+	background-blend-mode: soft-light;
+	text-shadow: 1px 1px 2px #111;
+	color: #fff;
+}
+nav a.active {
+	font-style: italic;
+	background-color: #72A0C1 ;
+	text-shadow: 0px 0px 0px #111;
+}
+
+nav a {
+	color: #fff;
+}
+sidebar {  
+	box-sizing: border-box;
+	color: #fff;
+	background-image: linear-gradient(225deg, #72A0C1  15%, #0000), url(https://i.vgy.me/1XvTY0.jpg);
+	background-size: cover; 
+       background-position: 37% 50%;
+}
+sidebar a {
+	background: none;
+}
+.ribbons {
+  font-size: 15px;
+}
+.ribbons b {
+  color: #72A0C1;
+ font-size: 20px;
+}
+    .tablinks.active, .tabcontent {
+ font-size: 15px;
+ background-color: #f5fbff;
+}
+
+.tabwrap {padding-top: 1.5rem;}
+
+.stats tr, td {font-size: 14px; background: transparent;}
+.stats tbody tr:nth-child(odd) { background: #f5fbff;}
+
+.history tbody tr:nth-child(odd) { background: #f5fbff;}
+.history td {font-size: 14px; }
+
+td a {
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-transform: uppercase!important;
+	}
+
+fieldset {
+background: #f5fbff; }
+
+.ribbons {
+background: #f5fbff!important; }
+
+.fig {
+display: block;
+font: 400 8.5px 'Libre Baskerville', serif;
+text-transform: uppercase;
+letter-spacing: 2.5px;
+color: #444;
+}
+.img {
+  margin: 1.5rem 0;
+  border: 0px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  min-width: inherit;
+}
+.progress {     background:#72A0C1; }
+
+select, input, textarea, button, .button {
+  background: #ebf6fd;
+  color: #111;
+}
+
+.ribbons table {background: #ebf6fd; outline: 10px solid #ebf6fd;}
+
+    @media(max-width: 1000px) {  /* smol */  
+h1 { height: auto!important; display: block; margin-top: 1rem; }
+h1, h2 { background:none; text-align: center; margin-top: 1rem;} 
+input { max-width: 70%; }
+.img {  margin-bottom: 20px; padding: 0;  max-width: 90%; }
+.tabwrap {padding: 0;}
+.ribbons {margin-top: 20px; }
+}
