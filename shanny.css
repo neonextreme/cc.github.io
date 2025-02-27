@@ -30,8 +30,7 @@
 th {background: background: var(--alt)!important; font-weight: bold;}
 
 [data-theme="dark"]
-fieldset {
-background: var(--alt);}
+fieldset {background: var(--alt);}
 
 [data-theme="dark"]
 .tablinks {color: #aaa;}
@@ -167,7 +166,7 @@ select, input, textarea, button, .button {
   color: #111;
 }
 
-.ribbons table {background: #ebf6fd !important; padding: 15px; outline: 3px solid #ebf6fd;}
+.ribbons table {background: #ebf6fd !important; outline: 3px solid #ebf6fd;}
 
     @media(max-width: 1000px) {  /* smol */  
 h1 { height: auto!important; display: block; margin-top: 1rem; }
