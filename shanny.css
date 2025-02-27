@@ -33,9 +33,6 @@ th {background: background: var(--alt)!important; font-weight: bold;}
 fieldset {background: var(--alt);}
 
 [data-theme="dark"]
-.tablinks {color: #aaa;}
-
-[data-theme="dark"]
 .tablinks:hover { transition: .3s; text-decoration: none; color: #72A0C1!important; }
 
 [data-theme="dark"]
