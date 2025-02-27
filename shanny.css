@@ -18,7 +18,10 @@
 .stats tbody tr:nth-child(odd) { background: var(--alt);}
 
 [data-theme="dark"]
-.history tbody tr:nth-child(odd) { background: var(--alt) }
+.history tbody tr:nth-child(odd) { background: var(--alt);}
+
+[data-theme="dark"]
+tbody tr:nth-child(odd) { background: var(--alt); }
 
 [data-theme="dark"]
  td a { transition: .3s; text-decoration: none; color: #72A0C1; }
@@ -33,15 +36,22 @@ th {background: background: var(--alt)!important; font-weight: bold;}
 fieldset {background: var(--alt);}
 
 [data-theme="dark"]
+.tablinks {color: #ccc;}
+
+[data-theme="dark"]
 .tablinks:hover { transition: .3s; text-decoration: none; color: #72A0C1!important; }
 
 [data-theme="dark"]
-    .tablinks.active {
-background-color: var(--alt); }
+    .tablinks.active {background-color: var(--alt); }
 
 [data-theme="dark"]
-.tabcontent  {
-background-color: var(--alt); }
+.tabcontent  {background-color: var(--alt); }
+
+[data-theme="dark"]
+ .tabcontent a { transition: .3s; text-decoration: none; color: #72A0C1; }
+
+[data-theme="dark"]
+ .tabcontent a:hover { transition: .3s; text-decoration: none; color: #ccc; }
 
 [data-theme="dark"]
 select, input, textarea, button, .button {
@@ -59,7 +69,7 @@ input {
 .ribbons {background: transparent !important;}
 
 [data-theme="dark"]
-.ribbons table {background: var(--border); outline: 10px solid var(--border);}
+.ribbons table {background: var(--border) !important; outline: 10px solid var(--border); border: 0px;}
 
 h1 {
   font-family: "Lavishly Yours", serif;
@@ -163,7 +173,7 @@ select, input, textarea, button, .button {
   color: #111;
 }
 
-.ribbons table {background: #ebf6fd !important; outline: 3px solid #ebf6fd;}
+.ribbons table {background: #ebf6fd !important; outline: 10px solid #ebf6fd; border: 0px;}
 
     @media(max-width: 1000px) {  /* smol */  
 h1 { height: auto!important; display: block; margin-top: 1rem; }
