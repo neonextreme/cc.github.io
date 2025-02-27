@@ -132,8 +132,8 @@ sidebar a {
 .history tbody tr:nth-child(odd) { background: #f5fbff;}
 .history td {font-size: 14px; }
 
-.ribbons tr, td {font-size: 14px; background: #f5fbff;}
-.ribbons tbody tr:nth-child(odd) { background: #f5fbff;}
+tr, td {font-size: 14px; background: #f5fbff;}
+tbody tr:nth-child(odd) { background: #f5fbff;}
 
 td a {
   letter-spacing: 1px;
